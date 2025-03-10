@@ -13,14 +13,6 @@ st.markdown(
             font-family: 'Arial', sans-serif;
         }
 
-        /* Title Styling */
-        .stTitle {
-            color: #ff9800;
-            text-align: center;
-            font-weight: bold;
-            font-size: 36px;
-        }
-
         /* Input Fields */
         div[data-baseweb="input"] input {
             background-color: #1e1e1e !important;
@@ -57,29 +49,6 @@ st.markdown(
             border: 1px solid #ff9800;
             border-radius: 10px;
         }
-
-        /* Messages (Success, Warning, Error) */
-        .stSuccess {
-            background-color: #4caf50;
-            color: white;
-            border-radius: 8px;
-            padding: 10px;
-        }
-
-        .stWarning {
-            background-color: #ff9800;
-            color: black;
-            border-radius: 8px;
-            padding: 10px;
-        }
-
-        .stError {
-            background-color: #f44336;
-            color: white;
-            border-radius: 8px;
-            padding: 10px;
-        }
-
         /* Footer */
         .footer {
             position: fixed;
